@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="task7:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7790a0e2-58fb-4641-a0ec-8442eba4fb7d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-watermark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/task7_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed_war_exploded/unnamed war exploded.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/aspect/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/aspect/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/ProfessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/entity/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/entity/Profession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/CheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/ProfessionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunOOSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunSendTemplateSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AntiChinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/DESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/DateTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/MigrationFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/RegularUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/SendCloudMailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/SendCommonPostMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/TencentOOSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/CheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/ProfessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/CheckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/ProfessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/StudentMemcacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/StudentRedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jnshu/serviceimpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-memcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/memcache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlmapper/CheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlmapper/ProfessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlmapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlmapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/jnshu/AliyunOOSUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/jnshu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Error_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/datetag.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-91.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-92.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-93.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/emailRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainLayout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student4Json.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task7login/task7-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task7login/task7-logintemplate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task7register/task7-register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/showArtJsonFormat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/task-91.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/task-92.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/task-93.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/7n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/alibaba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/archive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jsy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/rl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/task9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/aspect/Interceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/aspect/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/ProfessionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/entity/Check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/entity/Profession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/mapper/CheckMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/mapper/ProfessionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/AliyunOOSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/AliyunSendTemplateSMS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/AntiChinUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/Cookies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/DESUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/DateTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/MigrationFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/RegularUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/SendCloudMailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/SendCommonPostMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/TencentOOSUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/TencentOOSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/myutils/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/CheckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/ProfessionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/CheckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/ProfessionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/StudentMemcacheServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/StudentRedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jnshu/serviceimpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-memcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/properties/memcache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/properties/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/xmlmapper/CheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/xmlmapper/ProfessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/xmlmapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/xmlmapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/Error_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/aspect/Interceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/aspect/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/controller/ProfessionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/entity/Check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/entity/Profession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/mapper/CheckMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/mapper/ProfessionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/AliyunOOSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/AliyunSendTemplateSMS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/AntiChinUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/Cookies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/DESUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/DateTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/MigrationFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/RegularUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/SendCloudMailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/SendCommonPostMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/TencentOOSUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/TencentOOSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/myutils/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/service/CheckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/service/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/service/ProfessionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/CheckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/ProfessionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/StudentMemcacheServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/StudentRedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/com/jnshu/serviceimpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/conf/spring-memcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/conf/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/conf/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/properties/memcache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/properties/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/xmlmapper/CheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/xmlmapper/ProfessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/xmlmapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/classes/xmlmapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/datetag.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/body/task-91.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/body/task-92.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/body/task-93.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/emailRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/mainLayout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/reLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/reRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/student4Json.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/task7login/task7-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/task7login/task7-logintemplate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/task7register/task7-register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/uploadFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/uploadFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/jsp/uploadSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aliyun-java-sdk-core-4.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aliyun-sdk-oss-2.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/asm-1.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/asm-util-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aspectjrt-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/aspectwerkz-core-0.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/bcprov-jdk15on-1.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/cglib-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-digester-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-lang-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-pool-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/compiler-0.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/cos_api-5.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/freemarker-2.3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/guava-12.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jackson-annotations-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/java-jwt-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/java-memcached-2.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/javassist-3.7.ga.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jaxb-core-2.1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jaxb-impl-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jcl-over-slf4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jdom-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jjwt-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/joda-time-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/json-20140107.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/json-taglib-0.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mapper-3.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mksapi-jar-4.10.9049.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mvel2-2.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mybatis-generator-core-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/ognl-2.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/oro-2.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/protostuff-api-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/protostuff-collectionschema-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/protostuff-core-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/protostuff-runtime-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/qcloud-java-sdk-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-context-support-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-data-commons-1.13.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-data-keyvalue-1.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-data-redis-1.8.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-oxm-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-test-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-api-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-autotag-core-runtime-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-compat-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-core-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-el-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-extras-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-freemarker-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-jsp-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-mvel-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-ognl-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-api-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-freemarker-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-jsp-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-mustache-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-servlet-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-servlet-wildcard-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-request-velocity-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-servlet-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-template-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/tiles-velocity-3.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/velocity-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/lib/velocity-tools-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/view/showArtJsonFormat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/css/task-91.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/css/task-92.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/css/task-93.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/7n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/Shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/alibaba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/archive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/arrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/btn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/hx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/jsy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/qcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/ra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/rl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/task9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/tx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/images/xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/task7/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jnshu/AliyunOOSUtilTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jnshu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water.jpg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/message.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memcache.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/memcache.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1269">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sign.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/qcloud-java-sdk/2.0.1/qcloud-java-sdk-2.0.1.jar!/com/qcloud/Common/Sign.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/qcloud-java-sdk/2.0.1/qcloud-java-sdk-2.0.1.jar!/com/qcloud/Common/Request.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COSCredentials.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.6/cos_api-5.4.6.jar!/com/qcloud/cos/auth/COSCredentials.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="datetag.tld" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/datetag.tld">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TencentOOSUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/TencentOOSUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AliyunOOSUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunOOSUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reLogin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reLogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4185">
+              <caret line="178" column="35" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reRegister.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reRegister.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student4Json.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student4Json.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emailRegister.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/emailRegister.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" selection-start-line="14" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerSuccess.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registerSuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task-91.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-91.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainLayout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainLayout.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadSuccess.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadSuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadFile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadFail.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFail.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commons-httpclient</find>
+      <find>spring-core</find>
+      <find>5.1.2</find>
+      <find>4.3.9</find>
+      <find>4.3.5</find>
+      <find>static</find>
+      <find>Mult</find>
+      <find>aop</find>
+      <find>context</find>
+      <find>\</find>
+      <find>test</find>
+      <find>process</find>
+      <find>httpclient</find>
+      <find>http</find>
+      <find>codec</find>
+      <find>com.qcloud</find>
+      <find>cos_api</find>
+      <find>spring-test</find>
+      <find>json-</find>
+      <find>tglib</find>
+      <find>my</find>
+      <find>json</find>
+      <find>jstl</find>
+      <find>pack</find>
+      <find>href</find>
+      <find>tiles</find>
+      <find>${path}</find>
+      <find>task6</find>
+      <find>taglibs</find>
+      <find>/task7</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>check</replace>
+      <replace>mobilephone</replace>
+      <replace>Check</replace>
+      <replace>entity</replace>
+      <replace>Student</replace>
+      <replace>StudentService</replace>
+      <replace>email</replace>
+      <replace>student</replace>
+      <replace>cosbucketname</replace>
+      <replace>aliyunOOSUtil</replace>
+      <replace>4.3.5</replace>
+      <replace>4.3.9</replace>
+      <replace>task7</replace>
+      <replace>${path}</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunOOSUtil.java" />
+        <option value="$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/2.8.3/aliyun-sdk-oss-2.8.3.pom" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/StrUtil.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-oxm/4.3.9.RELEASE/spring-oxm-4.3.9.RELEASE.pom" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.pom" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/TencentOOSUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/jnshu/AliyunOOSUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/MigrationFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunOOSUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AntiChinUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AntiChinUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/service/Login.java" />
+        <option value="$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.6/cos_api-5.4.6.pom" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/SendCloudMailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/TencentOOSUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/myutils/MigrationFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/jnshu/AliyunOOSUtilTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/jnshu/AliyunOOSUtilTest.java" />
+        <option value="$MAVEN_REPOSITORY$/com/ppt/my-jar/0.4.1/my-jar-0.4.1.pom" />
+        <option value="$MAVEN_REPOSITORY$/atg/taglib/json/json-taglib/0.4.1/json-taglib-0.4.1.pom" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student4Json.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/redis.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-91.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/emailRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registerSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainLayout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-91.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/emailRegister.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program\Apache\maven\repository" />
+        <option name="mavenHome" value="D:/Program/Apache/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Program\Apache\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="task7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-153" />
+    <option name="y" value="65" />
+    <option name="width" value="1380" />
+    <option name="height" value="476" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\task7\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\IdeaProjects\task7\src\main\java\com\jnshu\myutils" />
+      <recent name="D:\IdeaProjects\task7\src\main" />
+      <recent name="D:\IdeaProjects\task7\src\main\java\com\jnshu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jnshu.myutils" />
+      <recent name="com.jnshu.serviceimpl" />
+      <recent name="com.jnshu.mapper" />
+      <recent name="com.jnshu.entity" />
+      <recent name="com.jnshu.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\task7\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\IdeaProjects\task7\src\main\webapp\WEB-INF\jsp\task7register" />
+      <recent name="D:\IdeaProjects\task7\src\main\resources\xmlmapper" />
+      <recent name="D:\IdeaProjects\task7\src\main\resources" />
+      <recent name="D:\IdeaProjects\task7\src\main\resources\conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Task7">
+    <configuration name="SendCommonPostMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.myutils.SendCommonPostMail" />
+      <module name="task7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.myutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AliyunOOSUtilTest.testAddWaterMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.AliyunOOSUtilTest" />
+      <option name="METHOD_NAME" value="testAddWaterMark" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AliyunOOSUtilTest.testAntiChanin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.AliyunOOSUtilTest" />
+      <option name="METHOD_NAME" value="testAntiChanin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AliyunOOSUtilTest.testSendCloud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.AliyunOOSUtilTest" />
+      <option name="METHOD_NAME" value="testSendCloud" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AliyunOOSUtilTest.testossToCos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.AliyunOOSUtilTest" />
+      <option name="METHOD_NAME" value="testossToCos" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Task7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/task7/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="task7:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/task7" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_task7_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7682" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="task7:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Task7" />
+      <item itemvalue="Application.SendCommonPostMail" />
+      <item itemvalue="JUnit.AliyunOOSUtilTest.testossToCos" />
+      <item itemvalue="JUnit.AliyunOOSUtilTest.testAddWaterMark" />
+      <item itemvalue="JUnit.AliyunOOSUtilTest.testAntiChanin" />
+      <item itemvalue="JUnit.AliyunOOSUtilTest.testSendCloud" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AliyunOOSUtilTest.testSendCloud" />
+        <item itemvalue="Application.SendCommonPostMail" />
+        <item itemvalue="JUnit.AliyunOOSUtilTest.testossToCos" />
+        <item itemvalue="JUnit.AliyunOOSUtilTest.testAntiChanin" />
+        <item itemvalue="JUnit.AliyunOOSUtilTest.testAddWaterMark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7790a0e2-58fb-4641-a0ec-8442eba4fb7d" name="Default" comment="" />
+      <created>1542774351176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542774351176</updated>
+      <workItem from="1542774354063" duration="15652000" />
+      <workItem from="1542848260400" duration="27791000" />
+      <workItem from="1542936842814" duration="6376000" />
+      <workItem from="1543149592773" duration="3344000" />
+      <workItem from="1543195368470" duration="35820000" />
+      <workItem from="1543242508692" duration="5592000" />
+      <workItem from="1543281138898" duration="40118000" />
+      <workItem from="1543367717174" duration="20968000" />
+      <workItem from="1543398937153" duration="19310000" />
+      <workItem from="1543454312038" duration="1678000" />
+      <workItem from="1543456134881" duration="14141000" />
+      <workItem from="1543472147748" duration="22785000" />
+      <workItem from="1543501706710" duration="10400000" />
+      <workItem from="1543539861626" duration="32099000" />
+      <workItem from="1543626255597" duration="43574000" />
+      <workItem from="1543712794812" duration="17826000" />
+      <workItem from="1543733348678" duration="13244000" />
+      <workItem from="1543748731348" duration="11709000" />
+      <workItem from="1543799199407" duration="5215000" />
+    </task>
+    <task id="LOCAL-00001" summary="QYH task7 first Commit">
+      <created>1543807324607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543807324608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AliyunOOSUtilTest_testAddWaterMark - 2018.12.01 at 23h 22m 18s.xml">
+      <configuration name="AliyunOOSUtilTest.testAddWaterMark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testAntiChanin - 2018.12.01 at 23h 39m 30s.xml">
+      <configuration name="AliyunOOSUtilTest.testAntiChanin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testAntiChanin - 2018.12.02 at 09h 54m 06s.xml">
+      <configuration name="AliyunOOSUtilTest.testAntiChanin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testossToCos - 2018.12.02 at 12h 36m 11s.xml">
+      <configuration name="AliyunOOSUtilTest.testossToCos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testossToCos - 2018.12.02 at 12h 40m 38s.xml">
+      <configuration name="AliyunOOSUtilTest.testossToCos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testossToCos - 2018.12.02 at 12h 44m 19s.xml">
+      <configuration name="AliyunOOSUtilTest.testossToCos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testSendCloud - 2018.12.02 at 12h 48m 16s.xml">
+      <configuration name="AliyunOOSUtilTest.testSendCloud" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testSendCloud - 2018.12.02 at 12h 54m 02s.xml">
+      <configuration name="AliyunOOSUtilTest.testSendCloud" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testSendCloud - 2018.12.02 at 15h 08m 38s.xml">
+      <configuration name="AliyunOOSUtilTest.testSendCloud" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AliyunOOSUtilTest_testSendCloud - 2018.12.02 at 15h 36m 41s.xml">
+      <configuration name="AliyunOOSUtilTest.testSendCloud" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="347642000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" weight="0.29776248" />
+      <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.73784196" weight="0.2508591" />
+      <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.74698794" weight="0.16033435" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.25301206" side_tool="true" weight="0.16033435" />
+      <window_info id="Structure" order="6" sideWeight="0.5020747" side_tool="true" weight="0.122340426" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49924013" weight="0.3556701" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" sideWeight="0.49924013" weight="0.32899022" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.8837386" weight="0.22336769" />
+      <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.49924013" weight="0.5137457" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848023" weight="0.50774527" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.79345953" visible="true" weight="0.23100305" />
+      <window_info id="Web" order="4" sideWeight="0.20654045" side_tool="true" weight="0.14741641" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.7537994" weight="0.46907216" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49924013" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QYH task7 first Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="QYH task7 first Commit" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.6/cos_api-5.4.6.jar!/com/qcloud/cos/auth/BasicCOSCredentials.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.2/cos_api-5.4.2.jar!/com/qcloud/cos/auth/COSSessionCredentials.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/SendCommonPostMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/SendCloudMailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/ppt/my-jar/0.4.1/my-jar-0.4.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/atg/taglib/json/json-taglib/0.4.1/json-taglib-0.4.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/jnshu/AliyunOOSUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="138" column="82" selection-start-line="138" selection-start-column="82" selection-end-line="138" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.jnshu:task7:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.jnshu:task7:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.jnshu:task7:1.0-SNAPSHOT</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/org.slf4j:slf4j-log4j12:jar:1.7.21</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/org.slf4j:slf4j-log4j12:jar:1.7.21/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/joda-time:joda-time:jar:2.9.6</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="" y="">com.qcloud:cos_api:jar:5.4.6/org.bouncycastle:bcprov-jdk15on:jar:1.59</node>
+            <node x="" y="">com.qcloud:qcloud-java-sdk:jar:2.0.1</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">com.aliyun.oss:aliyun-sdk-oss:jar:2.8.3</node>
+            <node x="" y="">com.aliyun.oss:aliyun-sdk-oss:jar:2.8.3/org.apache.httpcomponents:httpclient:jar:4.4.1</node>
+            <node x="" y="">com.aliyun.oss:aliyun-sdk-oss:jar:2.8.3/org.jdom:jdom:jar:1.1</node>
+            <node x="" y="">org.json:json:jar:20140107</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/com.sun.xml.bind:jaxb-core:jar:2.1.14</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/com.sun.xml.bind:jaxb-impl:jar:2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.activation:activation:jar:1.1.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.1.0</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">io.protostuff:protostuff-core:jar:1.6.0</node>
+            <node x="" y="">io.protostuff:protostuff-core:jar:1.6.0/io.protostuff:protostuff-api:jar:1.6.0</node>
+            <node x="" y="">io.protostuff:protostuff-runtime:jar:1.6.0</node>
+            <node x="" y="">io.protostuff:protostuff-runtime:jar:1.6.0/io.protostuff:protostuff-collectionschema:jar:1.6.0</node>
+            <node x="" y="">org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE/org.springframework:spring-core:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE/org.springframework:spring-beans:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework:spring-context:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework:spring-tx:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-tx:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-oxm:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-context-support:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-context-support:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-context-support:jar:4.3.9.RELEASE/org.springframework:spring-context:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-context-support:jar:4.3.9.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.6.1</node>
+            <node x="" y="">org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.1</node>
+            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
+            <node x="" y="">com.auth0:java-jwt:jar:3.0.1</node>
+            <node x="" y="">com.auth0:java-jwt:jar:3.0.1/com.fasterxml.jackson.core:jackson-databind:jar:2.8.4</node>
+            <node x="" y="">com.auth0:java-jwt:jar:3.0.1/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/org.apache.tiles:tiles-api:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/org.apache.tiles:tiles-api:jar:3.0.5/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/commons-digester:commons-digester:jar:2.0</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/commons-digester:commons-digester:jar:2.0/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/org.slf4j:jcl-over-slf4j:jar:1.7.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-core:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-servlet-wildcard:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-servlet-wildcard:jar:1.0.6/org.apache.tiles:tiles-request-servlet:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-servlet-wildcard:jar:1.0.6/org.slf4j:slf4j-api:jar:1.5.8</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-servlet-wildcard:jar:1.0.6/org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-mustache:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-mustache:jar:1.0.6/org.apache.tiles:tiles-request-api:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-mustache:jar:1.0.6/org.apache.tiles:tiles-request-api:jar:1.0.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-mustache:jar:1.0.6/com.github.spullara.mustache.java:compiler:jar:0.8.4</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-request-mustache:jar:1.0.6/com.github.spullara.mustache.java:compiler:jar:0.8.4/com.google.guava:guava:jar:12.0</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-servlet:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-servlet:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-template:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-template:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-template:jar:3.0.5/org.apache.tiles:tiles-autotag-core-runtime:jar:1.1.0</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-request-jsp:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-jsp:jar:3.0.5/org.apache.tiles:tiles-request-jsp:jar:1.0.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-freemarker:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-freemarker:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-freemarker:jar:3.0.5/org.apache.tiles:tiles-request-freemarker:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-freemarker:jar:3.0.5/org.apache.tiles:tiles-request-freemarker:jar:1.0.6/org.freemarker:freemarker:jar:2.3.15</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-freemarker:jar:3.0.5/org.apache.tiles:tiles-request-freemarker:jar:1.0.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0/commons-collections:commons-collections:jar:3.2</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0/oro:oro:jar:2.0.8</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0/org.apache.velocity:velocity:jar:1.6.2</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0/org.apache.velocity:velocity:jar:1.6.2/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.velocity:velocity-tools:jar:2.0/org.apache.velocity:velocity:jar:1.6.2/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-velocity:jar:3.0.5/org.apache.tiles:tiles-request-velocity:jar:1.0.6</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-el:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-el:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-mvel:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-mvel:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-mvel:jar:3.0.5/org.mvel:mvel2:jar:2.0.11</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-ognl:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-ognl:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-ognl:jar:3.0.5/ognl:ognl:jar:2.7.3</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-ognl:jar:3.0.5/ognl:ognl:jar:2.7.3/jboss:javassist:jar:3.7.ga</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-compat:jar:3.0.5</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.apache.tiles:tiles-compat:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/com.google.guava:guava:jar:12.0.1</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/com.google.guava:guava:jar:12.0.1/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">org.apache.tiles:tiles-extras:jar:3.0.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.7</node>
+            <node x="" y="">tk.mybatis:mapper:jar:3.4.3</node>
+            <node x="" y="">javax.persistence:persistence-api:jar:1.0</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5</node>
+            <node x="" y="">taglibs:standard:jar:1.1.2</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">com.danga:java-memcached:jar:2.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-simple:jar:1.6.1</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.6.1</node>
+            <node x="" y="">commons-pool:commons-pool:jar:1.5.6</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.47</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:4.0.0</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-core:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
+            <node x="" y="">com.ppt:my-jar:jar:0.4.1</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.8.6</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="" y="">aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">cglib:cglib:jar:2.1</node>
+            <node x="" y="">cglib:cglib:jar:2.1/asm:asm:jar:1.5.3</node>
+            <node x="" y="">cglib:cglib:jar:2.1/asm:asm-util:jar:1.3.4</node>
+            <node x="" y="">aspectwerkz:aspectwerkz-core:jar:0.8.1</node>
+            <node x="" y="">com.mks.api:mksapi-jar:jar:4.10.9049</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.5.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.0473746545598105" x="9615.0" y="-942.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/MigrationFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="21" column="15" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.6/cos_api-5.4.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/aspect/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/datetag.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/base.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/task7register/task7-register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2160">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="178" column="35" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/body/task-91.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/emailRegister.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainLayout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registerSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reRegister.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student4Json.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadFile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/memcache.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/message.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/AliyunOOSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jnshu/myutils/TencentOOSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.6/cos_api-5.4.6.jar!/com/qcloud/cos/auth/COSCredentials.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/qcloud-java-sdk/2.0.1/qcloud-java-sdk-2.0.1.jar!/com/qcloud/Common/Sign.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/qcloud-java-sdk/2.0.1/qcloud-java-sdk-2.0.1.jar!/com/qcloud/Common/Request.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" selection-start-line="14" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>task7:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>task7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install:install-file" />
+  </component>
+</project>

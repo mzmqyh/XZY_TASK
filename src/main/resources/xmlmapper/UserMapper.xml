@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jnshu.mapper.UserMapper">
+    <select id="findOne" parameterType="com.jnshu.entity.User" resultType="com.jnshu.entity.User">
+        SELECT *FROM user
+        <where>
+            <if test="username!= null and username!=''">username=#{username}</if>
+            <if test="password!= null and password!=''">AND password=#{password}</if>
+        </where>
+    </select>
+    <insert id="addOne" keyProperty="id" parameterType="com.jnshu.entity.User" useGeneratedKeys="true">
+          INSERT INTO user(username,password) SELECT #{username},MD5(#{password})
+          FROM DUAL WHERE NOT EXISTS(SELECT username FROM user WHERE username = #{username})
+    </insert>
+    <select id="findByName" parameterType="com.sun.org.apache.xpath.internal.operations.String"
+            resultType="com.jnshu.entity.User">
+    SELECT  *FROM  user WHERE username = #{username}
+  </select>
+    <!-- 更新  一般用于绑定手机或邮箱， 或添加头像路径 -->
+    <update id="updateUserById" parameterType="com.jnshu.entity.User">
+        update user
+        <set><!--set标签会去除只有最后一个条件的逗号-->
+            <if test="updateAt!=null and updateAt!=''">update_at=#{updateAt},</if>
+            <if test="createAt!=null and createAt!=''">create_at=#{createAt},</if>
+            <if test="username!= null and username!=''">username=#{username},</if>
+            <if test="password!= null and password!=''">password=#{password},</if>
+            <if test="mobilephone!= null and mobilephone!=''">mobilephone=#{mobilephone},</if>
+            <if test="email!= null and email!=''">email=#{email},</if>
+            <if test="headPhoto!= null and headPhoto!=''">head_photo=#{headPhoto},</if>
+        </set>
+        <where><!--where标签会去除第一个条件的and和or-->
+            <if test="id!=null">AND id=#{id}</if>
+        </where>
+    </update>
+
+    <insert id="addUser" parameterType="com.jnshu.entity.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="mobliephone !=null">
+                mobliephone,
+            </if>
+            <if test="email !=null">
+                mobliephone,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+
+            <if test="username !=null">
+                #{username},
+            </if>
+            <if test="password !=null">
+                #{password},
+            </if>
+            <if test="mobliephone!=null">
+                #{mobliephone},
+            </if>
+            <if test="email !=null">
+                #{email},
+            </if>
+        </trim>
+    </insert>
+    <select id="selectUser" resultType="com.jnshu.entity.User" parameterType="java.lang.String">
+       SELECT * FROM user WHERE username = #{username}
+</select>
+</mapper>
