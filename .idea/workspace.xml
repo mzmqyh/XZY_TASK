@@ -6,181 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7790a0e2-58fb-4641-a0ec-8442eba4fb7d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/JdbcTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/src/main/java/com/jnshu/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/src/main/java/com/jnshu/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/src/main/java/com/jnshu/StudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/src/test/java/com/jnshu/TestStudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/target/classes/com/jnshu/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/target/classes/com/jnshu/StudentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/target/classes/com/jnshu/StudentDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTask/target/test-classes/com/jnshu/TestStudentDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/hs_err_pid25656.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/main/java/com/jnshu/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/main/java/com/jnshu/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/main/java/com/jnshu/StudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/resources/bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/JdbcTemplateTask/src/test/java/com/jnshu/TestJdbcTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/MyBatisTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/main/java/com/jnshu/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/main/java/com/jnshu/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/resources/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/resources/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/MyBatisTask/src/test/java/com/jnshu/TestMyBatis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/SpringMybatisTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/src/main/java/com/jnshu/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/src/main/java/com/jnshu/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/src/resources/applicationContext" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/src/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task1/SpringMybatisTask/src/test/java/com/jnshu/TestSptingMyatisTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/hs_err_pid1880.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/replay_pid1880.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/Test/TestStudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/java/com/jnshu/aspect/Interceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/java/com/jnshu/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/java/com/jnshu/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/java/com/jnshu/mapper/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/java/com/jnshu/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/resources/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/webapp/WEB-INF/view/showJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/com/jnshu/aspect/Interceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/com/jnshu/controller/StudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/com/jnshu/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/com/jnshu/mapper/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/com/jnshu/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/com/jnshu/aspect/Interceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/com/jnshu/controller/StudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/com/jnshu/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/com/jnshu/mapper/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/com/jnshu/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/asm-1.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/asm-util-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/aspectjrt-1.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/aspectwerkz-core-0.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/cglib-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/jackson-annotations-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/jackson-core-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/jackson-databind-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/javax.servlet-jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/jstl-jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/my-jar-0.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/spring-webmvc-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/view/showJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task2/springMvcAopMessageSource/target/task2Final/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/fishing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/Test/java/ArtMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/Test/java/BannerDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/aspect/Interceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/ArtController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/BannerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/CommentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/FirstController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/SecondController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/controller/WorkroomController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Art.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Banner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Second.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/entity/Workroom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/ArtDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/ArtMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/BannerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/CommentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/FirstDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/SecondDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper/WorkroomDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/mapper1/FirstMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/ArtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/BannerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/CommentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/FirstService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/SecondService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/java/com/jnshu/service/WorkroomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/ArtDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/ArtMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/BannerDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/CommentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/FirstDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/SecondDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/StudentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/resources/xmlmapper/WorkroomDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showArtJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showBannerJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showCommentJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showFirstJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showSecondJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/view/showWorkroomJsonFormat.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Qinyonghui/Task3/finshing/src/main/webapp/index.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="7790a0e2-58fb-4641-a0ec-8442eba4fb7d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -747,6 +573,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -1054,7 +881,7 @@
       <workItem from="1543712794812" duration="17826000" />
       <workItem from="1543733348678" duration="13244000" />
       <workItem from="1543748731348" duration="11709000" />
-      <workItem from="1543799199407" duration="6598000" />
+      <workItem from="1543799199407" duration="7130000" />
     </task>
     <task id="LOCAL-00001" summary="QYH task7 first Commit">
       <created>1543807324607</created>
@@ -1070,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543812536227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="QYH task7 first Commit">
+      <created>1543815872788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543815872788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1106,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349025000" />
+    <option name="totallyTimeSpent" value="349557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1121,7 +955,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.103270225" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.28055078" />
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.73784196" weight="0.2508591" />
       <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.74698794" weight="0.16033435" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
