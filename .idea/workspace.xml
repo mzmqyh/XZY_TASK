@@ -209,7 +209,7 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="-837">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -881,7 +881,7 @@
       <workItem from="1543712794812" duration="17826000" />
       <workItem from="1543733348678" duration="13244000" />
       <workItem from="1543748731348" duration="11709000" />
-      <workItem from="1543799199407" duration="7130000" />
+      <workItem from="1543799199407" duration="7778000" />
     </task>
     <task id="LOCAL-00001" summary="QYH task7 first Commit">
       <created>1543807324607</created>
@@ -904,7 +904,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543815872788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="QYH task7  Commit">
+      <created>1543816539912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543816539912</updated>
+    </task>
+    <task id="LOCAL-00005" summary="QYH task7  Commit">
+      <created>1543816939109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543816939109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -940,7 +954,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349557000" />
+    <option name="totallyTimeSpent" value="350205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,7 +969,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.28055078" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.29948366" />
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.73784196" weight="0.2508591" />
       <window_info anchor="right" id="Maven Projects" order="1" sideWeight="0.74698794" weight="0.16033435" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
@@ -975,7 +989,7 @@
       <window_info anchor="bottom" id="Run" order="9" sideWeight="0.8837386" weight="0.22336769" />
       <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.49924013" weight="0.5137457" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848023" weight="0.50774527" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.79345953" visible="true" weight="0.23100305" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.79345953" visible="true" weight="0.23100305" />
       <window_info id="Web" order="4" sideWeight="0.20654045" side_tool="true" weight="0.14741641" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -997,7 +1011,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QYH task7 first Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="QYH task7 first Commit" />
+    <MESSAGE value="QYH task7  Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="QYH task7  Commit" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1512,7 +1527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="-837">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
